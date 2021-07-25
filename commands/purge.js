@@ -5,6 +5,7 @@ exports.run = async (client, message, args) => {
             description: "Please specify amount."
         }
     })
+    if (isNaN(+args[0])) return
     if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send({
         embed: {
             color: "#ffffff",

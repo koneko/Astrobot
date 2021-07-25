@@ -14,7 +14,7 @@ exports.run = async (client, message, args) => {
     message.channel.send({
         embed: {
             color: "#ffffff",
-            description: `Commands are [here]()\n**DB**\nGuild Id: ${gid}\nLog channel Id: ${logid}\nLogging deleted messages: ${logmsg}`,
+            description: `[Commands](https://hub.koneko.link/Astrobot/commands) | [Support](https://discord.gg/gMjgraTgSd)\n\n**Configuration**\nGuild Id: ${gid}\nLog channel Id: ${logid}\nLogging deleted messages: ${logmsg}`,
         }
     })
 }

@@ -25,6 +25,16 @@ exports.run = (client, message, args) => {
             })
             return
         }
+        if (target.hasPermission("MANAGE_MESSAGES")) {
+            message.channel.send({
+                embed: {
+                    color: "#ffffff",
+                    description: "Target user is a staff member."
+                }
+            })
+            return
+        }
+
         const mutedRole = message.guild.roles.cache.find(
             (role) => role.name === 'Muted'
         );
