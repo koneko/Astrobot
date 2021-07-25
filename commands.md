@@ -12,4 +12,4 @@
 
 \* = you have to setup the 'Muted' role and the permissions **on your own**, currently that is how it is done, might be improved upon in the future <br /> <br />
 
-[Main page](https://hub.koneko.link/astrobot/)
+[Main page](.)
