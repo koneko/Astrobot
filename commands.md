@@ -10,4 +10,4 @@
 ?resetdb - resets all settings to the default, usefull if a new bot update comes out with a new feature [ **ADMINISTRATOR** privilage required ] <br /> <br />
 ?removedb - removes the current server's db [ **OWNER ONLY** ] <br /> <br />
 
-* = you have to setup the 'Muted' role and the permissions **on your own**, currently that is how it is done, might be improved upon in the future
+\* = you have to setup the 'Muted' role and the permissions **on your own**, currently that is how it is done, might be improved upon in the future
